@@ -4,8 +4,8 @@ Official code examples for the LanoX API (OpenAI-compatible): Python, Node.js an
 
 ## Before you start
 
-1. Create an API key: “Create it in the console; after creation, you can copy it again from the API Key list.” Create an API key
-2. Pick a model ID: “Copy an exact ID from Models & pricing instead of guessing.” See the Models & pricing page. `GET /v1/models` lists models for your key, filtered by API-key permissions.
+1. Create an API key: “Create it in the console; after creation, you can copy it again from the API Key list.” Create an API key: https://lanox.ai/register?utm_source=github&utm_medium=referral&utm_campaign=lanox-api-examples
+2. Pick a model ID: “Copy an exact ID from Models & pricing instead of guessing.” See the Models & pricing : https://lanox.ai/en/model-pricing?utm_source=github&utm_medium=referral&utm_campaign=lanox-api-examples. `GET /v1/models` lists models for your key, filtered by API-key permissions.
 3. Set your API key:
 
    ```bash
@@ -121,7 +121,8 @@ bash examples/chat_completions.sh tools
 
 “Yes. For Codex, use https://api.lanox.ai/v1 and configure the Responses API as described in the documentation. For Claude Code, use https://api.lanox.ai without /v1. Both require a LanoX API key and a model ID that supports the client's API format; follow the LanoX CC Switch guide for setup instructions.”
 
-See the Codex guide and Claude Code guide. Follow those guides for configuration instructions.
+Codex guide: https://lanox.ai/en/docs/codex?utm_source=github&utm_medium=referral&utm_campaign=lanox-api-examples
+Claude Code guide: https://lanox.ai/en/docs/claude-code?utm_source=github&utm_medium=referral&utm_campaign=lanox-api-examples
 
 ## Model IDs
 
@@ -131,13 +132,11 @@ Copy an exact ID from the live catalog instead of guessing. The models you can c
 
 “A disconnected stream does not mean that the request was not executed. Evaluate the risk of a duplicate request before retrying.”
 
-On an error, the examples print the HTTP status and the response body as returned by the API. See the API errors guide for error guidance.
-
+On an error, the examples print the HTTP status and the response body as returned by the API. See the API errors guide: https://lanox.ai/en/docs/api-errors?utm_source=github&utm_medium=referral&utm_campaign=lanox-api-examples
 ## Docs
 
-- LanoX docs
-- Models & pricing
-
+- LanoX docs: https://lanox.ai/en/docs?utm_source=github&utm_medium=referral&utm_campaign=lanox-api-examples
+- Models & pricing: https://lanox.ai/en/model-pricing?utm_source=github&utm_medium=referral&utm_campaign=lanox-api-examples
 Written from the official LanoX docs as of 2026-11-12; check the docs for the latest values.
 
 ## License
